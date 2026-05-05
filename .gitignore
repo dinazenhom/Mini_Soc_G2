@@ -1,0 +1,15 @@
+# Ignore docker volumes / elastic data
+elasticsearch/
+kibana/
+logstash/
+filebeat/
+metricbeat/
+apm-server/
+elastic-agent-*/
+
+# Ignore secrets
+.env
+secrets/
+
+# Ignore archives
+*.zip
